@@ -19,7 +19,7 @@ $ composer require parraweb/laravel-extensions --dev
 
 ## Documentation
 
-[ParraWeb.com](https://www.parraweb.com)
+[Documentation](https://github.com/JhonSteven/laravelExtensionsDocs)
 
 ### Developing
 

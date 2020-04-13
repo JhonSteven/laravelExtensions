@@ -1,0 +1,22 @@
+{
+    "name": "parraweb/laravel-extensions",
+    "type": "library",
+    "description": "Laravel Extensions package is a package with functions that optimize code.",
+    "keywords": ["validation", "rules", "model", "validate", "laravel", "optimize"],
+    "homepage": "https://www.parraweb.com",
+    "license": "MIT",
+    "authors": [{
+        "name": "Jhon Parra",
+        "email": "jhonstevenparrapena@gmail.com",
+        "homepage": "https://www.parraweb.com",
+        "role": "Developer"
+    }],
+    "require": {
+        "php": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ParraWeb\\": "src/"
+        }
+    }
+}

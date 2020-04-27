@@ -3,10 +3,10 @@
 namespace ParraWeb;
 
 use ParraWeb\ValidationRules;
-use ParraWeb\UpdateAndGet;
+use ParraWeb\AditionalEloquent;
 
 trait ModelExtensions{
-  use ValidationRules,UpdateAndGet;
+  use ValidationRules,AditionalEloquent;
 
   public static function getFillableColumns($data=null)
   {

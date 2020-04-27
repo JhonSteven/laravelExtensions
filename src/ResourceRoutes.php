@@ -4,7 +4,7 @@ namespace ParraWeb;
 use Illuminate\Support\Facades\Route;
 
 class aditionalResourceRoutes{
-  public $allMethods = ["store","store-many","update","update-many","destroy","destroy-many","show","show-many","edit","create"];
+  public $allMethods = ["index","store","store-many","update","update-many","destroy","destroy-many","show","show-many","edit","create"];
 
   public function exceptRoutes($methods)
   {

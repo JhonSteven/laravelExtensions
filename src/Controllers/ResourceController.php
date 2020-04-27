@@ -36,6 +36,12 @@ class ResourceController extends Controller
     {
         return ((new static)->model)::findOrFail($id);
     }
+
+    public function showMany(Request $request)
+    {
+        $request->validate(['id'=>'required|array','id.*' => 'integer|min:1']);
+        return ((new static)->model)::findOrFail($request->id);
+    }
     
     public function store(Request $request)
     {

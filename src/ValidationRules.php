@@ -19,10 +19,6 @@ trait ValidationRules{
     {
       $method = $selectedMethod;
     }
-    if($method=='patch')
-    {
-      $method = 'put';
-    }
     $method = strtolower($method);
 
     $rules = [];
